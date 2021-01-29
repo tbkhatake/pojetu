@@ -13,8 +13,13 @@
     width: 80%;
     position: relative;
     left: 10%;
-    margin: 20px;
+    margin-top:30px;
+    margin-bottom: 30px;
     border: 2px solid green;
+}
+
+h2{
+    text-align: center;
 }
 
 ul{
@@ -24,5 +29,6 @@ ul{
 
 ul li{
     font-weight: 500;
+    border: 1px dashed green;
   
 }
