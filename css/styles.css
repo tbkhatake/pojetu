@@ -9,6 +9,25 @@
     width: 100%;
 }
 
+.banner{
+    width: 80%;
+    height: 100px;
+    position: relative;
+    left: 10%;
+    border: 2px solid green;
+}
+
+.banner_image{
+    width: 80%;
+    height: 100%;
+    background-image: url("../images/helloworld.png");
+    background-repeat: no-repeat;
+    background-size: 60% 100% ;
+    position: relative;
+    left:19%;
+
+}
+
 .prompt_git, .javascript{
     width: 80%;
     position: relative;
@@ -16,19 +35,23 @@
     margin-top:30px;
     margin-bottom: 30px;
     border: 2px solid green;
+
 }
 
 h2{
+    width: 99%;
     text-align: center;
 }
 
 ul{
+    width: 99%;
     list-style:none;
     position: relative;
+    left: 5px;
 }
 
 ul li{
+    width: 100%;
     font-weight: 500;
-    border: 1px dashed green;
-  
+    border: 1px dashed green;  
 }
