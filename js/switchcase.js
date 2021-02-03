@@ -9,17 +9,25 @@ const colocacao = function (pontos) {/*Estrutura switch case, não consegui reso
         case 50:
             console.log("Sulamericana!")
             break
-        case 40: case 30:
+        case 40:
+        case 30:
             console.log("Se manteve na série A")
             break
-        case 20: case 10: case 0:
+        case 20:
+        case 10:
+        case 0:
             console.log("REBAIXADO.")
             break
         default:
             console.log("Valor inválido!")
+            break
     }
 
 }
 
-colocacao(78)
-console.log(colocacao)
+colocacao(60)
+
+const a = Math.floor(23)
+
+
+console.log(a)

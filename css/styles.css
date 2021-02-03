@@ -17,25 +17,49 @@
     border: 2px solid green;
 }
 
-.banner_image{
-    width: 80%;
+.banner img{
+    width: 60%;
     height: 100%;
-    background-image: url("../images/helloworld.png");
-    background-repeat: no-repeat;
-    background-size: 60% 100% ;
     position: relative;
-    left:19%;
-
+    left: 15%;
 }
 
-.prompt_git, .javascript{
+nav{
+    width: 80%;
+    height: 40px;
+    position: relative;
+    left: 10%;
+    margin-top: 10px;
+    border: green solid 2px;
+}
+
+.navegation_links {
+    width: 100%;
+    position: relative;
+    margin-top: 12px;
+}
+
+.navegation_links li{
+    display: inline;
+    list-style: none;
+    margin-right:5%;
+    margin-left: 12%;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.navegation_links a{
+    text-decoration: none;
+}
+
+.prompt_git, .javascript, .css{
     width: 80%;
     position: relative;
     left: 10%;
-    margin-top:30px;
+    margin-top:10px;
     margin-bottom: 30px;
     border: 2px solid green;
-
 }
 
 h2{
@@ -43,14 +67,14 @@ h2{
     text-align: center;
 }
 
-ul{
+.bases{
     width: 99%;
     list-style:none;
     position: relative;
     left: 5px;
 }
 
-ul li{
+.bases li{
     width: 100%;
     font-weight: 500;
     border: 1px dashed green;  
