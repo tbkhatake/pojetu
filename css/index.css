@@ -1,0 +1,117 @@
+main{
+    width: 80%;
+    position: relative;
+    margin:0 auto;
+    margin-top: 10px;
+    border: 2px solid green;
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(85, 84, 85));
+}
+
+main h1{
+    text-align:justify;
+    position: relative;
+    margin:15px auto;
+    width: 80%;
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+}
+
+main p{
+    text-align:justify;
+    position: relative;
+    margin:15px auto;
+    width: 80%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cursos{
+    width: 80%;
+    position: relative;
+    margin:0 auto;
+}
+
+.cursos li{
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    background-color: red;
+    align-items: center;
+    margin-right:16%;
+    margin-left: 16%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.cursos li button{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    color:rgb(250, 250, 250);
+    font-size: 25px;
+    font-weight: bold;
+    border:none;
+    outline: none;
+    box-shadow:0px 0px 5px 4px #d4cece;
+    cursor: pointer;
+}
+
+.cursos li a{
+    text-decoration: none;
+}
+
+#html5{
+    background-color: orange;
+}
+
+#css3{
+    background-color: blue;
+}
+
+#javascript{
+    background-color: rgb(230, 230, 39);
+}
+
+#github{
+    background-color: red;
+}
+
+.aboutus{
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    border: 2px solid green;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-style: italic;
+    background-image: linear-gradient(to right, rgba(128, 16, 16, 0.733), rgb(8, 78, 8));
+}
+
+.aboutus h2{
+    width: 50%;
+    position: relative;
+    margin:0 auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.aboutus ul{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.aboutus li{
+    width: 30%;
+    position: relative;
+    display: inline-block;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+.aboutus li p{
+    font-size: 18px;
+    font-weight: bold;
+}
