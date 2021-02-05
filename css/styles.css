@@ -5,12 +5,27 @@ main{
     margin-top:10px;
     margin-bottom: 20px;
     border: 2px solid green;
+    padding-top: 10px;
     padding-bottom: 10px;
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(85, 84, 85));
 }
 
 h2{
-    width: 99%;
+    width: 80%;
+    position: relative;
+    margin: 10px auto;
     text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+main p{
+    width: 80%;
+    position: relative;
+    margin: 10px auto;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .bases{

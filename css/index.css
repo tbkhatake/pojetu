@@ -57,25 +57,50 @@ main p{
     box-shadow:0px 0px 5px 4px #d4cece;
     cursor: pointer;
 }
+.cursos li button:hover{
+    color:rgb(14, 14, 13);
+}
+
+.cursos li button:active{
+    width: 145px;
+    height: 145px;
+    border-radius: 145px;
+}
 
 .cursos li a{
     text-decoration: none;
 }
 
 #html5{
-    background-color: orange;
+    background-image: linear-gradient(to bottom right, orange, rgba(51, 34, 3, 0.623) ) ;
+}
+
+#html5:hover{
+    background-image: linear-gradient(to top left, orange, rgba(51, 34, 3, 0.623) ) ;
 }
 
 #css3{
-    background-color: blue;
+    background-image: linear-gradient(to bottom right, blue, rgba(51, 34, 3, 0.623) ) ;
+}
+
+#css3:hover{
+    background-image: linear-gradient(to top left, blue, rgba(51, 34, 3, 0.623) ) ;
 }
 
 #javascript{
-    background-color: rgb(230, 230, 39);
+    background-image: linear-gradient(to bottom right, yellow, rgba(51, 34, 3, 0.623) ) ;
+}
+
+#javascript:hover{
+    background-image: linear-gradient(to top left, yellow, rgba(51, 34, 3, 0.623) ) ;
 }
 
 #github{
-    background-color: red;
+    background-image: linear-gradient(to bottom right, red, rgba(51, 34, 3, 0.623) ) ;
+}
+
+#github:hover{
+    background-image: linear-gradient(to top left, red, rgba(51, 34, 3, 0.623) ) ;
 }
 
 .aboutus{
@@ -115,3 +140,4 @@ main p{
     font-size: 18px;
     font-weight: bold;
 }
+

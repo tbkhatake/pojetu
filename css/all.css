@@ -18,7 +18,8 @@ body{
     width: 60%;
     height: 100%;
     position: relative;
-    left: 15%;
+    margin: 0 auto;
+    left: 20%;
 }
 
 nav{
@@ -52,4 +53,21 @@ nav{
     font-style: italic;
     font-weight: bold;
     color: white;
+}
+
+.navegation_links a:hover{
+    color:green;
+    text-decoration: underline;
+    font-size: 21px;
+}
+
+footer{
+    width: 80%;
+    position: relative;
+    margin: 15px auto;
+
+}
+
+footer p{
+    text-align: center;
 }
