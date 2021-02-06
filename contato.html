@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Learn Home</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/contato.css">
+</head>
+
+<body>
+
+    <header>
+    </header>
+
+    <div class="banner">
+        <img src="images/helloworld.png" alt="">
+    </div>
+    <nav>
+        <ul class="navegation_links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="">Projetos</a></li>
+            <li><a href="">Estudantes</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <H1>Contato</H1>
+        <p>E ai, gostou do nosso trabalho? <br />
+            Quer fazer parte do nosso projeto, ser um colaborador ou nos contratar?<br />
+            Entre em contato com a gente pelo:<br />
+            whatsapp (00)00000-0000,<br />
+            e-mail:greenlearn@gmail.com<br />
+            ou preencha o formulário abaixo, que entraremos em contato com você.
+        </p>
+        <form>
+            <h2>Formulário</h2>
+            <div class="esquerdo">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" class="input-padrao">
+                <label for="email">E-mail</label>
+                <input type="text" id="email" class="input-padrao">
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" class="input-padrao">
+                <label for="whatsapp">Whatsapp</label>
+                <input type="text" id="whatsapp" class="input-padrao">
+
+
+                <p>De que forma prefere o contato?</p>
+
+                <div class="forma-contato">
+                    <label id="forma-contato" for="radio-email"><input type="radio" name="forma-contato"
+                            id="radio-email">E-mail</label>
+
+                    <label id="forma-contato" for="radio-telefone"><input type="radio" name="forma-contato"
+                            id="radio-telefone">Telefone</label>
+
+                    <label id="forma-contato" for="radio-whatsapp"><input type="radio" name="forma-contato"
+                            id="radio-whatsapp">Whatsapp</label>
+                </div>
+
+                <p>Em qual período?</p>
+                <select name="periodo" id="periodo" class="input-padrao">
+                    <option value="manha">Manhã</option>
+                    <option value="tarde">Tarde</option>
+                    <option value="noite">Noite</option>
+                </select>
+
+            </div>
+            <!--esquerdo-->
+
+            <div class="direito">
+
+                <p>Poderia nos dizer o motivo do contato?</p>
+                <div class="motivo-contato">
+                    <label id="motivo-contato" for="estudar"><input type="radio" name="motivo"
+                            id="estudar">Estudar</label>
+                    <label id="motivo-contato" for="contratar"><input type="radio" name="motivo"
+                            id="contratar">Contratar</label>
+                    <label id="motivo-contato" for="colaborar"><input type="radio" name="motivo"
+                            id="colaborar">Colaborar</label>
+                    <label id="motivo-contato" for="outros"><input type="radio" name="motivo" id="outros">Outro
+                        motivo</label>
+                </div>
+
+                <label for="mensagem">Mensagem(Opcional)</label>
+                <textarea name="mensagem" id="" cols="30" rows="5" class="input-padrao"></textarea>
+                <input id="enviar" type="submit" value="Enviar">
+            </div>
+            <!--direito-->
+
+
+
+        </form>
+    </main>
+
+    <footer>
+        <p>&#169; Copyright Green Learn 2020</p>
+    </footer>
+
+</body>
+
+</html>
