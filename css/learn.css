@@ -1,3 +1,4 @@
+/*CSS exclusivo das paginas de ensino*/
 main{
     width: 80%;
     margin:0 auto;
@@ -19,15 +20,6 @@ h2{
     font-weight: bold;
 }
 
-main p{
-    width: 80%;
-    position: relative;
-    margin: 10px auto;
-    text-align: justify;
-    font-size: 16px;
-    font-weight: bold;
-}
-
 .bases{
     width: 99%;
     list-style:none;
@@ -39,4 +31,19 @@ main p{
     width: 100%;
     font-weight: 500;
     border: 1px dashed green;  
+}
+
+.learn_box{
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+    border: gold 2px solid;
+    background-image: linear-gradient(to bottom right, rgb(34, 34, 58), rgb(102, 102, 105));
+}
+
+.learn_box p, h3, h4{
+    width: 90%;
+    margin: 20px auto;
+    font-size: 18px;
+    color: white;
 }
