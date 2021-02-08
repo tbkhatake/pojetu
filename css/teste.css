@@ -1,10 +1,11 @@
 .exemplo_item{
-    width: 33.3%;/*Largura*/
+    width: 33%;/*Largura*/
     height: 150px;/*Altura*/
     line-height: 150px;/*Centraliza o texto verticalmente*/
     text-align: center;/*Centraliza o texto horizontalmente*/
     color:white;/*muda cor da fonte*/
     font-size: 30px;/*Tamanho da fonte*/
+    display: inline-block;
 }
 .exemplo_item1{
     background-color: rgb(81, 221, 81);/*Muda cor de fundo do objeto*/

@@ -32,14 +32,14 @@
 
     <main>
 
-        <div class="learn_box">
+        <div class="learning">
             <h3>Displays </h3>
-            <h4>No CSS temos 3 diferentes tipos de Displays</h4>
+            <h4>No CSS temos 3 diferentes tipos de Displays:</h4>
             <p><span style="color: aqua;">display</span>:<span style="color: coral;">block</span>; - <button
-                    onclick="show_hide('img_show')"> Explicação</button></p>
+                    onclick="show_hide('display_block')"> Explicação</button></p>
             <!--paragrafo com cor e botão para show-->
 
-            <div id="img_show" style="display: none;">
+            <div class="learn_box" id="display_block" style="display: none;">
                 <p>Esse é o display padrão que já é automaticamente usado, se você não seleciona nenhum display.<br />
                     O :block sempre preencherá 100% da largura total.<br />
                     Caso você ponha uma largura de 50% no seu objeto ele continuará ocupando 100%, sendo o restante
@@ -47,15 +47,52 @@
                     50% de largura + 50% de margem = 100%.<br />
                     Nos exemplos abaixo, será mostrado como o :block funciona sendo posicionado a esquerda, direita e
                     centralizado.<br />
-                    Lembrando que o uso dos margin:auto; só são possíveis, devida ele estar como :block, pois assim a
+                    Lembrando que o uso dos margin:auto; só são possíveis, devido ele estar como :block, pois assim a
                     margem ocupa automaticamente o espaço restante do objeto.
+                </p>
 
-                    <img class="css_img" src="images/css_learn/exemplo_html_display-block.PNG" alt="">
-                    <img class="css_img" src="images/css_learn/exemplo_css_display-block.PNG" alt="">
-                    <img class="css_img" src="images/css_learn/exemplo_page_display-block.PNG" alt="">
+                <img class="css_img" src="images/css_learn/exemplo_html_display-block.PNG" alt="">
+                <img class="css_img" src="images/css_learn/exemplo_css_display-block.PNG" alt="">
+                <img class="css_img" src="images/css_learn/exemplo_page_display-block.PNG" alt="">
+                <p><span style="color: aqua;">display</span>:<span style="color: coral;">block</span>; - FIM <button
+                        onclick="show_hide('display_block')"> Minimizar</button></p>
             </div>
+            <!---display:block-->
+
+            <p><span style="color: aqua;">display</span>:<span style="color: coral;">inline</span>; - <button
+                    onclick="show_hide('display_inline')"> Explicação</button></p>
+            <!--paragrafo com cor e botão para show-->
+            <div class="learn_box" id="display_inline" style="display: none;">
+                <p>O :inline faz com que a largura e altura não possam ser alterados e o objeto ganha o tamanho exato de
+                    seu conteúdo.</p>
+
+                <img class="css_img" src="images/css_learn/exemplo_html_display-inline.PNG" alt="Exemplo de HTML">
+                <img class="css_img" src="images/css_learn/exemplo_css_display-inline.PNG" alt="Exemplo de CSS">
+                <img class="css_img" src="images/css_learn/exemplo_page_display-inline.PNG" alt="Exemplo de Site">
+                <p><span style="color: aqua;">display</span>:<span style="color: coral;">inline</span>; - FIM <button
+                        onclick="show_hide('display_inline')"> Minimizar</button></p>
+            </div>
+            <!---display:inline-->
+            </p>
+
+            <p><span style="color: aqua;">display</span>:<span style="color: coral;">inline-block</span>; - <button
+                    onclick="show_hide('display_inline-block')"> Explicação</button></p>
+            <!--paragrafo com cor e botão para show-->
+            <div class="learn_box" id="display_inline-block" style="display: none;">
+                <p>O :inline-block faz com que a largura e altura do objeto tenha o tamanho exato que foi feito pelo
+                    programador.</p>
+
+                <img class="css_img" src="images/css_learn/exemplo_html_display-inline-block.PNG" alt="Exemplo de HTML">
+                <img class="css_img" src="images/css_learn/exemplo_css_display-inline-block.PNG" alt="Exemplo de CSS">
+                <img class="css_img" src="images/css_learn/exemplo_page_display-inline-block.PNG" alt="Exemplo de Site">
+                <p><span style="color: aqua;">display</span>:<span style="color: coral;">inline-block</span>; - FIM
+                    <button onclick="show_hide('display_inline-block')"> Minimizar</button>
+                </p>
+            </div>
+            <!---display:inline-block-->
             </p>
         </div>
+        <!---Learning-->
     </main>
     <footer>
         <p>&#169; Copyright Green Learn 2020</p>

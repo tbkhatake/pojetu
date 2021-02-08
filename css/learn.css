@@ -33,7 +33,7 @@ h2{
     border: 1px dashed green;  
 }
 
-.learn_box{
+.learning{
     width: 90%;
     position: relative;
     margin: 20px auto;
@@ -41,7 +41,7 @@ h2{
     background-image: linear-gradient(to bottom right, rgb(34, 34, 58), rgb(102, 102, 105));
 }
 
-.learn_box p, h3, h4{
+.learning p, h3, h4{
     width: 90%;
     margin: 20px auto;
     font-size: 18px;
