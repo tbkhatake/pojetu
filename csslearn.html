@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/learn.css">
+    <script src="js_uso/learn.js"></script>
 
 </head>
 
@@ -30,23 +31,31 @@
     </nav>
 
     <main>
+
         <div class="learn_box">
-            <h2>CSS</h2>
-            <h3>Lição básica de tamanho</h3>
-            <h4>No CSS temos certos códigos para alterar o tamanho dos objetos:</h4>
-            <p>width(altera largura)<br />
-                height(altera altura)<br />
-                padding(altera o espaçamento interno), mas mexe no tamanho total também.<br />
-                margin(altera o espaçamento interno)<br />
+            <h3>Displays </h3>
+            <h4>No CSS temos 3 diferentes tipos de Displays</h4>
+            <p><span style="color: aqua;">display</span>:<span style="color: coral;">block</span>; - <button
+                    onclick="show_hide('img_show')"> Explicação</button></p>
+            <!--paragrafo com cor e botão para show-->
+
+            <div id="img_show" style="display: none;">
+                <p>Esse é o display padrão que já é automaticamente usado, se você não seleciona nenhum display.<br />
+                    O :block sempre preencherá 100% da largura total.<br />
+                    Caso você ponha uma largura de 50% no seu objeto ele continuará ocupando 100%, sendo o restante
+                    preenchida em margem. <br />
+                    50% de largura + 50% de margem = 100%.<br />
+                    Nos exemplos abaixo, será mostrado como o :block funciona sendo posicionado a esquerda, direita e
+                    centralizado.<br />
+                    Lembrando que o uso dos margin:auto; só são possíveis, devida ele estar como :block, pois assim a
+                    margem ocupa automaticamente o espaço restante do objeto.
+
+                    <img class="css_img" src="images/css_learn/exemplo_html_display-block.PNG" alt="">
+                    <img class="css_img" src="images/css_learn/exemplo_css_display-block.PNG" alt="">
+                    <img class="css_img" src="images/css_learn/exemplo_page_display-block.PNG" alt="">
+            </div>
             </p>
         </div>
-        <ul class="bases">
-            <li>img src = "images/helloworld.png" - adiciona imagem</li>
-            <li>link rel="stylesheet" href="css/styles.css" - adiciona o arquivo com o css no html</li>
-            <li>display:inline,block ou inline-block - Muda a forma de como o objeto ocupa o espaço na página</li>
-            <li>vertical-align:top,bottom - muda o alinhamento do objeto na linha em que ele ocupa</li>
-            <li>position relative - Posição relativa ao ponto inicial do item</li>
-            <li>position absolute - Posição relativa a pagina ou dentro de um item com o position relative </li>
     </main>
     <footer>
         <p>&#169; Copyright Green Learn 2020</p>

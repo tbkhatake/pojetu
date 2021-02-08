@@ -1,0 +1,21 @@
+.exemplo_item{
+    width: 33.3%;/*Largura*/
+    height: 150px;/*Altura*/
+    line-height: 150px;/*Centraliza o texto verticalmente*/
+    text-align: center;/*Centraliza o texto horizontalmente*/
+    color:white;/*muda cor da fonte*/
+    font-size: 30px;/*Tamanho da fonte*/
+}
+.exemplo_item1{
+    background-color: rgb(81, 221, 81);/*Muda cor de fundo do objeto*/
+    margin-right: auto;/*Posiciona o elemento automaticamente na esquerda, pois seta a margem á dirita*/
+}
+.exemplo_item2{
+    background-color: rgb(81, 130, 221);/*Muda cor de fundo do objeto*/
+    margin-left: auto;/*Posiciona o elemento automaticamente na esquerda, pois seta a margem á esquerda*/
+}
+.exemplo_item3{
+    background-color: rgb(221, 160, 81);/*Muda cor de fundo do objeto*/
+    margin-left: auto; margin-right: auto;/*Posiciona o elemento automaticamente no centro, pois setou a margem á esquerda e a direita*/
+    margin:0 auto;/*Igual a junção de margin-left e margin-right*/
+}
