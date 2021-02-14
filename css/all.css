@@ -8,7 +8,7 @@ body{
 
 .banner{
     width: 80%;
-    height: 100px;
+    height: 150px;
     position: relative;
     margin: 0 auto;    
     border: 2px solid green;
@@ -31,7 +31,7 @@ nav{
     border: 2px solid green;
     padding-top: 10px;
     padding-bottom: 10px; 
-    background-image: linear-gradient(to bottom right, black, gray)
+    background-image: linear-gradient(to bottom right, black, gray);
 }
 
 .navegation_links {
@@ -40,11 +40,9 @@ nav{
 }
 
 .navegation_links li{
-    display: inline;
+    display: inline-block;
     list-style: none;
-    margin-right:5%;
-    margin-left: 10%;
-    margin-bottom: 5%;
+    margin: 0 8%;
 }
 
 .navegation_links a{
@@ -59,7 +57,7 @@ nav{
 .navegation_links a:hover{
     color:green;
     text-decoration: underline;
-    font-size: 21px;
+    transition: 1s;
 }
 
 footer{
@@ -71,4 +69,20 @@ footer{
 
 footer p{
     text-align: center;
+}
+
+@media screen and (max-width:480px){
+    .banner, nav , footer{
+        width: 90%;
+    }
+    .banner{
+        height: 100px;
+    }
+    .navegation_links li {
+        width: 25%;
+        margin: 0 10%;
+    }
+    .navegation_links li a{
+        text-align: center;
+    }
 }

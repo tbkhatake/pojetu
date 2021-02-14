@@ -40,7 +40,7 @@ form .esquerdo{
     position: relative;
 }
 
-form .esquerdo label, form .esquerdo p{
+form .esquerdo label, form .esquerdo legend{
     display: block;
     font-size: 20px;
     text-align:center;
@@ -67,7 +67,7 @@ form .esquerdo label, form .esquerdo p{
     margin-bottom: 20px;
     padding: 5px;
     font-size: 16px;  
-    background-image: linear-gradient(to bottom right, rgb(125, 125, 136), rgb(216, 216, 231));
+    background-image: linear-gradient(to bottom right, rgb(225, 225, 226), rgb(216, 216, 231));
 }
 
 #periodo{
@@ -82,7 +82,7 @@ form .direito{
     position: absolute;
 }
 
-form .direito label, form .direito p{
+form .direito label, form .direito legend{
     display: block;
     font-size: 20px;
     text-align:center;
@@ -113,4 +113,24 @@ form .direito label, form .direito p{
     font-size: 20px;
     font-weight: bold;
     background-image: linear-gradient(to bottom right, gray,gold );
+}
+
+@media screen and (max-width:480px){
+    main{
+        width: 90%;
+    }
+
+    main h1, main p, form{
+        width: 90%;
+    }
+
+    #periodo{
+        width: 50%;
+    }
+
+    #enviar{
+        width: 50%;
+        margin: 0 25%;
+    }
+
 }

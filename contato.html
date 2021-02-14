@@ -38,20 +38,20 @@
         </p>
         <form>
             <h2>Formulário</h2>
-            <div class="esquerdo">
+            <fieldset class="esquerdo">
                 <label for="nome">Nome</label>
-                <input type="text" id="nome" class="input-padrao">
+                <input type="text" id="nome" class="input-padrao" required placeholder="Digite seu nome">
                 <label for="email">E-mail</label>
-                <input type="text" id="email" class="input-padrao">
+                <input type="email" id="email" class="input-padrao" required placeholder="email@dominio.com">
                 <label for="telefone">Telefone</label>
-                <input type="text" id="telefone" class="input-padrao">
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(**)*****-****">
                 <label for="whatsapp">Whatsapp</label>
-                <input type="text" id="whatsapp" class="input-padrao">
+                <input type="tel" id="whatsapp" class="input-padrao" placeholder="(**)*****-****">
 
 
-                <p>De que forma prefere o contato?</p>
+                <legend>De que forma prefere o contato?</legend>
 
-                <div class="forma-contato">
+                <fieldset class="forma-contato">
                     <label id="forma-contato" for="radio-email"><input type="radio" name="forma-contato"
                             id="radio-email">E-mail</label>
 
@@ -59,37 +59,39 @@
                             id="radio-telefone">Telefone</label>
 
                     <label id="forma-contato" for="radio-whatsapp"><input type="radio" name="forma-contato"
-                            id="radio-whatsapp">Whatsapp</label>
-                </div>
+                            id="radio-whatsapp" checked>Whatsapp</label>
+                </fieldset>
+                <!--forma-contato-->
 
-                <p>Em qual período?</p>
+                <legend>Em qual período?</legend>
                 <select name="periodo" id="periodo" class="input-padrao">
                     <option value="manha">Manhã</option>
                     <option value="tarde">Tarde</option>
                     <option value="noite">Noite</option>
                 </select>
 
-            </div>
+            </fieldset>
             <!--esquerdo-->
 
-            <div class="direito">
+            <fieldset class="direito">
 
-                <p>Poderia nos dizer o motivo do contato?</p>
-                <div class="motivo-contato">
-                    <label id="motivo-contato" for="estudar"><input type="radio" name="motivo"
-                            id="estudar">Estudar</label>
+                <legend>Poderia nos dizer o motivo do contato?</legend>
+                <fieldset class="motivo-contato">
+                    <label id="motivo-contato" for="estudar"><input type="radio" name="motivo" id="estudar"
+                            checked>Estudar</label>
                     <label id="motivo-contato" for="contratar"><input type="radio" name="motivo"
                             id="contratar">Contratar</label>
                     <label id="motivo-contato" for="colaborar"><input type="radio" name="motivo"
                             id="colaborar">Colaborar</label>
                     <label id="motivo-contato" for="outros"><input type="radio" name="motivo" id="outros">Outro
                         motivo</label>
-                </div>
+                </fieldset>
 
-                <label for="mensagem">Mensagem(Opcional)</label>
-                <textarea name="mensagem" id="" cols="30" rows="5" class="input-padrao"></textarea>
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="" cols="30" rows="5" class="input-padrao"
+                    placeholder='"Opcional"'></textarea>
                 <input id="enviar" type="submit" value="Enviar">
-            </div>
+            </fieldset>
             <!--direito-->
 
 

@@ -5,7 +5,7 @@
     text-align: center;/*Centraliza o texto horizontalmente*/
     color:white;/*muda cor da fonte*/
     font-size: 30px;/*Tamanho da fonte*/
-    display: inline-block;
+    display: block;
 }
 .exemplo_item1{
     background-color: rgb(81, 221, 81);/*Muda cor de fundo do objeto*/
