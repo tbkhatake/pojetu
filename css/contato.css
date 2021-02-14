@@ -128,6 +128,10 @@ form .direito label, form .direito legend{
         width: 50%;
     }
 
+    .motivo-contato{
+        width: 90%;
+    }
+
     #enviar{
         width: 50%;
         margin: 0 25%;
